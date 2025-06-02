@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+* text=auto
+*.js text eol=lf
+*.json text eol=lf
+*.jsx text eol=lf

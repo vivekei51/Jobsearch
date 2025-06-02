@@ -1,14 +1,12 @@
 "use client"
-import Image from "next/image";
-import { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
-import Login from "@/components/Auth/Login";
+import FilterBar from "@/components/FilterBar";
+import JobCard from "@/components/JobCard";
+import Navbar from "@/components/Navbar";
 export default function Home() {
- 
   return (
     <main className="h-[700px]">
-      <Login/>
-    </main>
+      <Navbar/>
+      <FilterBar/>
+    </main>  
   );
 }
